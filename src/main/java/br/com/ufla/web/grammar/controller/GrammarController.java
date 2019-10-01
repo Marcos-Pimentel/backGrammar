@@ -21,7 +21,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import br.com.ufla.web.grammar.core.Grammar;
 
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:4200", "localhost:3000", "localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:4200", "localhost:3000", "localhost:4200",
+		"https://immense-tundra-58333.herokuapp.com"})
 @RestController
 public class GrammarController {
 
